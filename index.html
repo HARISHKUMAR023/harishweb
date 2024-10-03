@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harishkumar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/jquery-3.7.1.js"></script>
+
+    <!-- ========== Start typeing animation js  ========== -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+    <!-- ========== End typeing animation js  ========== -->
+
+    <!-- ========== Start fontanswom icone ========== -->
+    <script
+      src="https://kit.fontawesome.com/65210e3c63.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ========== End fontanswom icone ========== -->
+  </head>
+  <body class="bg-slate-950 relative">
+    <!-- ========== Start navbar ========== -->
+    <!-- Navbar -->
+    <!-- <nav class="bg-gray-900 p-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <a href="#home" class="text-orange-500 text-2xl font-bold">Harishkumar N</a>
+      <ul class="flex space-x-4 text-white">
+        <li><a href="#about" class="hover:text-orange-400">About</a></li>
+        <li><a href="#projects" class="hover:text-orange-400">Projects</a></li>
+        <li><a href="#skills" class="hover:text-orange-400">Skills</a></li>
+        <li><a href="#contact" class="hover:text-orange-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav> -->
+    <!-- ========== End navbar ========== -->
+
+    <!-- ========== Start naivaation ========== -->
+    <div class="fixed right-5 top-48 z-40">
+      <div
+        class="w-12 h-[300px] rounded-full bg-[#66686c36] flex flex-col justify-center shadow-2xl z-10 shadow-orange-500/50"
+      >
+        <i class="fa-brands fa-github my-2 mx-4 text-orange-500 text-xl"></i>
+        <i
+          class="fa-brands fa-stack-overflow my-2 mx-4 text-orange-500 text-xl"
+        ></i>
+        <i class="fa-brands fa-instagram my-2 mx-4 text-orange-500 text-xl"></i>
+      </div>
+    </div>
+
+    <!-- ========== End naivaation ========== -->
+
+    <div class="relative container p-7 flex items-center">
+      <div
+        class="absolute rounded-md mx-6 w-[500px] h-[500px] border-4 border-orange-600 z-0 top-36 left-0 shadow-2xl shadow-orange-500/50"
+      ></div>
+      <div
+        class="absolute rounded-md mx-6 w-[500px] h-[460px] bg-orange-600 z-10 top-44 left-10"
+      ></div>
+      <div class="relative z-20">
+        <img
+          src="./assets/img/harishkumar-removebg-preview.png"
+          alt="harishkumar image"
+          class="h-[600px] w-[500px]"
+        />
+      </div>
+
+      <div class="relative z-10 px-20">
+        <h1 class="text-white text-5xl">
+          I'am
+          <span
+            class="text-orange-600 font-bold capitalize"
+            id="simpleUsage"
+          ></span
+          ><br />
+          <!-- <span class="pt-10 text-2xl">Software Engineer, Multilang Coder</span> -->
+        </h1>
+        <p
+          class="text-white text-xl mt-4 max-w-lg mx-auto antialiased leading-relaxed normal-case"
+        >
+          A passionate
+          <span class="text-orange-500">Full Stack Developer</span> with
+          expertise in building dynamic, user-friendly web and mobile
+          applications. I love solving complex problems with efficient, scalable
+          solutions.
+        </p>
+        <p class="text-white text-2xl pt-4">
+          <i class="fa-brands fa-github mx-2 hover:text-orange-500"></i>
+          <i class="fa-brands fa-stack-overflow mx-2 hover:text-orange-500"></i>
+          <i class="fa-brands fa-instagram mx-2 hover:text-orange-500"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== Start about ========== -->
+    <div class="p-7">
+      <h1 class="text-orange-500 font-bold text-4xl py-4">About</h1>
+      <div class="flex justify-items-start">
+        <div class="w-60 h-1 bg-orange-500"></div>
+        <p
+          class="text-white subpixel-antialiased text-justify pr-24 text-xl pl-3"
+        >
+          Hello! I'm <span class="font-bold">Harishkumar N</span>, a passionate
+          Full Stack Developer with expertise in building dynamic and responsive
+          web applications. I have hands-on experience working with technologies
+          like React, Redux, MongoDB, Express.js, and Firebase, allowing me to
+          create high-quality and scalable solutions. I completed my Master of
+          Computer Applications (M.C.A) at Sona College of Technology with a
+          strong focus on data structures, algorithms, and web development.
+          <span class="text-orange-600"
+            >I enjoy exploring new technologies and continuously improving my
+            skills</span
+          >
+          to keep up with industry trend.
+        </p>
+      </div>
+    </div>
+    <!-- ========== End about ========== -->
+
+    <!-- ========== Start skills ========== -->
+    <div class="p-7">
+      <h1 class="text-white text-center font-bold text-2xl p-6">My Skills</h1>
+      <div id="skills" class="grid grid-cols-8 gap-1"></div>
+    </div>
+    <!-- ========== End skills ========== -->
+
+    <!-- ========== Start educitaon ========== -->
+    <h1 class="text-white text-4xl p-7 font-bold">Educaition</h1>
+    <div class="p-24 flex justify-center">
+      <div class="flex flex-col item-center">
+        <div
+          class="rounded-full bg-orange-600 w-7 h-7 shadow-md shadow-orange-500/50"
+        ></div>
+        <div class="w-1 h-[200px] bg-white mt-5 mx-3"></div>
+      </div>
+      <div class="p-4">
+        <h1 class="text-white font-bold text-2xl">
+          Master of Computer Applications (M.C.A)
+        </h1>
+        <h3 class="text-white font-bold text-1xl">
+          Sona College of Technology, Salem
+        </h3>
+
+        <p class="text-white">
+          Relevant Coursework: OOP, Databases, Discrete Mathematics, Data
+          Structures and Algorithms, OS, Computer Networks, Machine Learning,
+          Advanced Web Programming, Agile Methodology, Microservices & DevOps,
+          Cybersecurity
+        </p>
+      </div>
+    </div>
+    <div class="px-24 flex justify-center">
+      <div class="flex flex-col item-center">
+        <div
+          class="rounded-full bg-orange-600 w-7 h-7 shadow-md shadow-orange-500/50"
+        ></div>
+        <div class="w-1 h-[200px] bg-white mt-5 mx-3"></div>
+      </div>
+      <div class="p-4">
+        <h1 class="text-white font-bold text-2xl">
+          Master of Computer Applications (M.C.A)
+        </h1>
+        <h3 class="text-white font-bold text-1xl">
+          Sona College of Technology, Salem
+        </h3>
+
+        <p class="text-white">
+          Relevant Coursework: OOP, Databases, Discrete Mathematics, Data
+          Structures and Algorithms, OS, Computer Networks, Machine Learning,
+          Advanced Web Programming, Agile Methodology, Microservices & DevOps,
+          Cybersecurity
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== End educitaon ========== -->
+
+    <!-- ========== Start javascipt link ========== -->
+    <script src="./assets/js/Main.js"></script>
+    <!-- ========== End javascipt link ========== -->
+  </body>
+</html>
