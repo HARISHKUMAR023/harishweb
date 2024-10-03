@@ -18,8 +18,16 @@
       crossorigin="anonymous"
     ></script>
     <!-- ========== End fontanswom icone ========== -->
+     <!-- ========== Start cursor js ========== -->
+     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+     <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+     <!-- ========== End cursor js ========== -->
+     
   </head>
-  <body class="bg-slate-950 relative">
+  <body class="bg-slate-950 relative" id="app">
     <!-- ========== Start navbar ========== -->
     <!-- Navbar -->
     <!-- <nav class="bg-gray-900 p-4">
@@ -50,7 +58,7 @@
 
     <!-- ========== End naivaation ========== -->
 
-    <div class="relative container p-7 flex items-center">
+    <div class="relative container p-7 flex items-center" >
       <div
         class="absolute rounded-md mx-6 w-[500px] h-[500px] border-4 border-orange-600 z-0 top-36 left-0 shadow-2xl shadow-orange-500/50"
       ></div>
@@ -125,23 +133,30 @@
     <!-- ========== End skills ========== -->
 
     <!-- ========== Start educitaon ========== -->
-    <h1 class="text-white text-4xl p-7 font-bold">Educaition</h1>
-    <div class="p-24 flex justify-center">
+    <h1 class="text-orange-500 text-4xl p-7 font-bold">Educaition</h1>
+    <div class="px-24 flex justify-center py-5">
       <div class="flex flex-col item-center">
+        <!-- <div class="flex justify-center  item-center">
+            <h1 class="bg-gray-400 text-white p-4 rounded-tr-full rounded-br-full">2024</h1>
+            <div
+            class="rounded-full bg-orange-600 w-7 h-7 shadow-md shadow-orange-500/50"
+          ></div>
+        </div> -->
+       
         <div
-          class="rounded-full bg-orange-600 w-7 h-7 shadow-md shadow-orange-500/50"
-        ></div>
+        class="rounded-full bg-orange-600 w-7 h-7 shadow-md shadow-orange-500/50"
+      ></div>
         <div class="w-1 h-[200px] bg-white mt-5 mx-3"></div>
       </div>
       <div class="p-4">
         <h1 class="text-white font-bold text-2xl">
-          Master of Computer Applications (M.C.A)
+          Master of Computer Applications (M.C.A) - <span class="bg-orange-500 text-white p-2 rounded-xl px-2">2024</span>
         </h1>
         <h3 class="text-white font-bold text-1xl">
           Sona College of Technology, Salem
         </h3>
 
-        <p class="text-white">
+        <p class="text-white w-[600px]">
           Relevant Coursework: OOP, Databases, Discrete Mathematics, Data
           Structures and Algorithms, OS, Computer Networks, Machine Learning,
           Advanced Web Programming, Agile Methodology, Microservices & DevOps,
@@ -158,25 +173,53 @@
       </div>
       <div class="p-4">
         <h1 class="text-white font-bold text-2xl">
-          Master of Computer Applications (M.C.A)
+            Bachelor of Science (B.Sc.) – Computer Science - <span class="bg-orange-500 text-white p-2 rounded-xl px-2">2022</span>
         </h1>
         <h3 class="text-white font-bold text-1xl">
-          Sona College of Technology, Salem
+            Sri Vidya Mandir Arts & Science College, Uthangarai
         </h3>
 
-        <p class="text-white">
-          Relevant Coursework: OOP, Databases, Discrete Mathematics, Data
-          Structures and Algorithms, OS, Computer Networks, Machine Learning,
-          Advanced Web Programming, Agile Methodology, Microservices & DevOps,
-          Cybersecurity
+        <p class="text-white w-[600px]">
+            Relevant Coursework: OOP, Databases, DBMS, RDBMS, C, C++, Java, PHP, Photoshop, Computer Networks
         </p>
       </div>
     </div>
 
     <!-- ========== End educitaon ========== -->
 
+    <!-- ========== Start contact ========== -->
+    <div class="bg-slate-800 p-6 px-20">
+      <h1 class="text-white text-4xl font-bold mb-4 text-center">Contact Us</h1>
+    
+      <div class="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 sm:space-x-4">
+        <!-- Phone Section -->
+        <div class="w-full sm:w-60 rounded-md h-10 flex items-center bg-slate-900 p-4 space-x-3">
+          <i class="fa-solid fa-phone text-orange-500"></i>
+          <span class="text-white">+916369145671</span>
+        </div>
+    
+        <!-- Email Section -->
+        <div class="w-full sm:w-72 rounded-md h-10 flex items-center bg-slate-900 p-4  space-x-3">
+          <i class="fa-solid fa-envelope text-orange-500"></i>
+          <span class="text-white">harishkumarsp023@gmail.com</span>
+        </div>
+    
+        <!-- Address Section (displayed last) -->
+        <div class="w-full sm:w-60 rounded-md h-10 flex items-center bg-slate-900 p-4 space-x-3">
+          <i class="fa-solid fa-map-marker-alt text-orange-500"></i>
+          <span class="text-white">123 Main St, Salem, India</span>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- ========== End contact ========== -->
+    
+    <h1 class="text-orange-500 text-center p-4 font-bold text-2xl">" Thanks for Scrolling "</h1>
     <!-- ========== Start javascipt link ========== -->
     <script src="./assets/js/Main.js"></script>
     <!-- ========== End javascipt link ========== -->
+
+    <script src="./assets/js/particles.js"></script>
   </body>
 </html>
